@@ -1,0 +1,40 @@
+{
+  "type": "products",
+  "model_name": "jinaai/jina-embeddings-v2-small-en",
+  "device": "cuda",
+  "normalize_embeddings": false,
+  "convert_to_numpy": true,
+  "show_progress_bar": false,
+  "num_rows": 591347,
+  "ids_path": "products/product_ids.parquet",
+  "id_col": "product_id",
+  "source_index_col": "source_index",
+  "dataset_products_path": "shopping_queries_dataset/reduced/shopping_queries_dataset_products_reduced.parquet",
+  "fields": [
+    {
+      "name": "product_summary",
+      "dim": 512,
+      "path": "products/product_summary.mmap"
+    },
+    {
+      "name": "product_title",
+      "dim": 512,
+      "path": "products/product_title.mmap"
+    },
+    {
+      "name": "product_description",
+      "dim": 512,
+      "path": "products/product_description.mmap"
+    },
+    {
+      "name": "product_bullet_point",
+      "dim": 512,
+      "path": "products/product_bullet_point.mmap"
+    },
+    {
+      "name": "product_brand",
+      "dim": 512,
+      "path": "products/product_brand.mmap"
+    }
+  ]
+}

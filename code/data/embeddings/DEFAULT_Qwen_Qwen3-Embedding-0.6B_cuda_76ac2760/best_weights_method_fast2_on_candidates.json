@@ -1,0 +1,23 @@
+{
+  "type": "weight_search",
+  "strategy": "coarse_fine_grid_with_tie_break",
+  "mode": "candidates",
+  "method": "2",
+  "ndcg_k": 10,
+  "optimize_for_stat": "mean",
+  "topk_candidates": 40,
+  "frac_queries": 0.05,
+  "grid_step": 0.05,
+  "max_stages": 4,
+  "min_step": 0.0125,
+  "local_radius_steps": 2,
+  "epsilon": 0.0125,
+  "seed": 42,
+  "weights": {
+    "product_title": 0.7125,
+    "product_description": 0.0875,
+    "product_bullet_point": 0.125,
+    "product_brand": 0.075
+  },
+  "score": 0.9015
+}

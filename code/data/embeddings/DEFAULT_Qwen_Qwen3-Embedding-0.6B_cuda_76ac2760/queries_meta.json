@@ -1,0 +1,18 @@
+{
+  "type": "queries",
+  "model_name": "Qwen/Qwen3-Embedding-0.6B",
+  "device": "cuda",
+  "normalize_embeddings": false,
+  "convert_to_numpy": true,
+  "show_progress_bar": false,
+  "num_rows": 39161,
+  "ids_path": "queries/query_ids.parquet",
+  "id_col": "query_id",
+  "source_index_col": "source_index",
+  "dataset_examples_path": "shopping_queries_dataset/reduced/shopping_queries_dataset_examples_reduced.parquet",
+  "field": {
+    "name": "query",
+    "dim": 1024,
+    "path": "queries/query.mmap"
+  }
+}

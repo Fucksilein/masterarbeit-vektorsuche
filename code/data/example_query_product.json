@@ -1,0 +1,15 @@
+{
+  "query": "Billiges Deutsches Kochbuch",
+  "products": [
+    {
+      "title": "Landkarte von Deutschland",
+      "description": "Wie so oft in modernen Zeiten steht in der Beschreibung ganz etwas anderes als im Titel. Gerade bei modernen Inhalten, die vielleicht sogar mithilfe künstlicher Intelligenz erstellt wurden, ist das nicht unüblich. Dennoch zeigt diese Karte klassisch Deutschland und seine Nachbarländer: Belgien, Niederlande, Dänemark, Polen, Tschechien, Österreich, Schweiz, Frankreich, Luxemburg und Liechtenstein.",
+      "price": 9.99
+    },
+    {
+      "title": "Kulinarisches Österreich",
+      "description": "Eine kurze Übersicht über Österreich, die die beliebtesten Gerichte und Rezepte des Landes zeigt. Die Karte enthält eine Vielzahl traditioneller österreichischer Spezialitäten wie Wiener Schnitzel, Sachertorte und Apfelstrudel.",
+      "price": 129.9
+    }
+  ]
+}
