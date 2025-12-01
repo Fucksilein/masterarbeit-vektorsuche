@@ -35,3 +35,4 @@ Fuchs, T. (2025). *Begleitendes Repository zur Masterarbeit
   url     = {https://github.com/Fucksilein/masterarbeit-vektorsuche},
   urldate = {2025-11-23},
 }
+```
