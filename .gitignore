@@ -1,0 +1,4 @@
+/.idea/
+/code/shopping_queries_dataset/*
+/code/data/embeddings/**/*.mmap
+/code/data/reduced/**/*.mmap
